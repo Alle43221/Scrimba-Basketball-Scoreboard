@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1b244a;
+    height:385px;
+    width: 520px;
+    text-align: center;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+#container1
+{
+    margin-left: 0;
+    padding: 0;
+    margin-right: 0;
+}
+
+#container2
+{
+    margin-right: 75px;
+}
+
+h3{
+    font-family: 'Verdana', serif;
+    color:#eeeeee;
+    position: center;
+    font-size: 40px ;
+    margin-top:60px;
+    margin-bottom: 15px;
+}
+
+@font-face{
+    font-family: 'Cursed Timer';
+    src: url("cursedtimerulil-aznm-webfont.woff") format("woff");
+}
+
+.score{
+    background-color:#080001;
+    font-family:"Cursed Timer", serif;
+    color:#f94f6d;
+    font-size: 90px;
+    height: 120px;
+    width: 155px;
+    border:none;
+    text-align: center;
+    vertical-align: center;
+    border-radius: 5px;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.add{
+    font-family:"Cursed Timer", serif;
+    height: 45px;
+    width: 45px;
+    border:solid #9aabd8 2px;
+    background-color: transparent;
+    color:#9aabd8;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-top: 25px;
+    vertical-align: middle;
+    padding-top: 6px;
+    cursor: pointer;
+}
+
+.plusone{
+    margin-right: 6px;
+}
+
+.plusthree{
+    margin-left: 6px;
+}
